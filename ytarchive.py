@@ -1659,6 +1659,13 @@ Options:
         Automatically run the ffmpeg command for the downloaded streams
         when sigint is received. You will be prompted otherwise.
 
+    --mkv
+        Produce output file with mkv extension instead of default mp4.
+
+    --newline
+        Print status with newline (\\n) instead of carriage-return (\\r) symbol
+        at the end. Will produce a lot of output.
+
     --no-frag-files
         Keep fragment data in memory instead of writing to an intermediate file.
         This has the possibility to drastically increase RAM usage if a fragment
